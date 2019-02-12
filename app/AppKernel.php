@@ -53,6 +53,9 @@ class AppKernel extends Kernel
             new Victoire\Bundle\ViewReferenceBundle\ViewReferenceBundle(),
             new Victoire\Bundle\WidgetBundle\VictoireWidgetBundle(),
             new Victoire\Bundle\WidgetMapBundle\VictoireWidgetMapBundle(),
+            new Victoire\Widget\TextBundle\VictoireWidgetTextBundle(),
+            new Victoire\Widget\ButtonBundle\VictoireWidgetButtonBundle(),
+            new Victoire\Widget\ImageBundle\VictoireWidgetImageBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

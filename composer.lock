@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17ad524953b81167428802c3f4e943d8",
+    "content-hash": "64c4ba18c459b29ce866e20d623996c0",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -4182,6 +4182,136 @@
             "time": "2019-01-14T15:00:48+00:00"
         },
         {
+            "name": "victoire/button-widget",
+            "version": "2.0.4",
+            "target-dir": "Victoire/Widget/ButtonBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Victoire/WidgetButtonBundle.git",
+                "reference": "6bb25987a0e3af0db856e85db28c5b0c689b31bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Victoire/WidgetButtonBundle/zipball/6bb25987a0e3af0db856e85db28c5b0c689b31bb",
+                "reference": "6bb25987a0e3af0db856e85db28c5b0c689b31bb",
+                "shasum": ""
+            },
+            "require": {
+                "victoire/victoire": "~2.3 | ~3.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Victoire\\Widget\\ButtonBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leny Bernard",
+                    "email": "leny@victoire.io"
+                }
+            ],
+            "description": "Victoire Button widget",
+            "keywords": [
+                "button",
+                "victoire",
+                "widget"
+            ],
+            "time": "2017-05-22T20:21:49+00:00"
+        },
+        {
+            "name": "victoire/image-widget",
+            "version": "2.0.8",
+            "target-dir": "Victoire/Widget/ImageBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Victoire/WidgetImageBundle.git",
+                "reference": "3018020308098b13700d960f39fb871887a487be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Victoire/WidgetImageBundle/zipball/3018020308098b13700d960f39fb871887a487be",
+                "reference": "3018020308098b13700d960f39fb871887a487be",
+                "shasum": ""
+            },
+            "require": {
+                "victoire/victoire": "~2.3 | ~3.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Victoire\\Widget\\ImageBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Andrieux",
+                    "email": "paul@victoire.io"
+                }
+            ],
+            "description": "Victoire Image widget",
+            "keywords": [
+                "image",
+                "victoire",
+                "widget"
+            ],
+            "time": "2018-03-02T14:54:44+00:00"
+        },
+        {
+            "name": "victoire/text-widget",
+            "version": "2.0.5",
+            "target-dir": "Victoire/Widget/TextBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Victoire/WidgetTextBundle.git",
+                "reference": "b63117a2c9e3fbad95cfde1205f65aeec1cc3612"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Victoire/WidgetTextBundle/zipball/b63117a2c9e3fbad95cfde1205f65aeec1cc3612",
+                "reference": "b63117a2c9e3fbad95cfde1205f65aeec1cc3612",
+                "shasum": ""
+            },
+            "require": {
+                "victoire/victoire": "~2.3 | ~3.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Victoire\\Widget\\TextBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leny Bernard",
+                    "email": "leny@victoire.io"
+                },
+                {
+                    "name": "Paul Andrieux",
+                    "email": "paul@victoire.io"
+                }
+            ],
+            "description": "Victoire Text widget",
+            "keywords": [
+                "text",
+                "victoire",
+                "widget"
+            ],
+            "time": "2017-05-22T20:27:15+00:00"
+        },
+        {
             "name": "victoire/victoire",
             "version": "2.3.38",
             "source": {
@@ -4626,8 +4756,5 @@
     "platform": {
         "php": ">=5.5.9"
     },
-    "platform-dev": [],
-    "platform-overrides": {
-        "php": "7.1.9"
-    }
+    "platform-dev": []
 }
